@@ -16,13 +16,11 @@ use PHPFramework\Utils\Auth;
 
 class Kernel {
 
-    private $_environement;
     private $_Request;
     private $_Router;
 
-    public function __construct($environement) {
+    public function __construct() {
         session_start();
-        $this->_environement = $environement;
         $this->_Request = new Request();
         $this->_Router = new Router();
         if ($this->_Router->parse($this->_Request)) {

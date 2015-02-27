@@ -12,4 +12,4 @@
     define('BASE_URL', str_replace('/Web', '' , ROOT_URL));
     define('ROOT_DIR', str_replace('/web/index.php', '' , $_SERVER['SCRIPT_FILENAME']));
 
-    $kernel = new PHPFramework\Kernel('dev');
+    $kernel = new PHPFramework\Kernel();
