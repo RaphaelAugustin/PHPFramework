@@ -13,3 +13,5 @@
     define('ROOT_DIR', str_replace('/web/index.php', '' , $_SERVER['SCRIPT_FILENAME']));
 
     $kernel = new PHPFramework\Kernel();
+
+    echo "Je suis un pokemon";
