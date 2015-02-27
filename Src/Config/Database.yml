@@ -1,0 +1,6 @@
+driver: mysql
+host: localhost
+database: PHPFramework
+username: root
+password:
+charset: utf8

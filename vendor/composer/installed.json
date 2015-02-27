@@ -1,0 +1,96 @@
+[
+    {
+        "name": "symfony/yaml",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Symfony/Component/Yaml",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/Yaml.git",
+            "reference": "afd2e0dec75dbb76de5df220039f6b218dacf967"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/Yaml/zipball/afd2e0dec75dbb76de5df220039f6b218dacf967",
+            "reference": "afd2e0dec75dbb76de5df220039f6b218dacf967",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "~2.7|~3.0"
+        },
+        "time": "2015-02-21 13:23:59",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Yaml\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Symfony Yaml Component",
+        "homepage": "http://symfony.com"
+    },
+    {
+        "name": "lichtner/fluentpdo",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lichtner/fluentpdo.git",
+            "reference": "8a34b9c6742544bda9d193e814101cd065d88875"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lichtner/fluentpdo/zipball/8a34b9c6742544bda9d193e814101cd065d88875",
+            "reference": "8a34b9c6742544bda9d193e814101cd065d88875",
+            "shasum": ""
+        },
+        "time": "2015-02-24 20:50:47",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "FluentPDO/FluentPDO.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0",
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Marek Lichtner",
+                "homepage": "http://licht.sk/"
+            }
+        ],
+        "description": "FluentPDO is small PHP library for rapid query building. Killer feature is smart join builder which generates joins automatically.",
+        "homepage": "http://fluentpdo.com/",
+        "keywords": [
+            "database",
+            "dbal",
+            "pdo"
+        ]
+    }
+]

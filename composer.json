@@ -1,0 +1,21 @@
+{
+    "name": "alexandresimonet/phpframework",
+    "description": "Framework PHP MVC",
+    "authors": [
+        {
+            "name": "Alexandre Simonet",
+            "email": "contact@alexandresimonet.fr"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "3.0.*@dev",
+        "lichtner/fluentpdo": "dev-master"
+
+    },
+    "autoload" : {
+        "psr-4" : {
+            "PHPFramework\\" : "vendor/AlexandreSimonet/PHPFramework",
+            "Src\\" : "src/"
+        }
+    }
+}
